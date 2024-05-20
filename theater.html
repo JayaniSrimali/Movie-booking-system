@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin UI</title>
+    <link rel="stylesheet" href="theater.css"/>
+    <style>
+        body {
+         background-image: url('Admin3.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed; 
+         background-size: 100% 100%;
+        }
+        </style>
+</head>
+<body>
+
+  <!--header-->
+	<div class=" header">
+		
+		<div class="bg" style="background-color:black">
+			<div class="col-1" style="padding-top: 5px ;">
+
+            <center>
+                <img src="logo.jpg" style="height: 45px; width: 80%;">
+            </center>
+
+        </div>
+
+        <div class="col-2">
+
+
+            <ul class="nav" style="padding-top: 5px;">
+
+                <li class="li1"><a href="index.php" style="color: aliceblue;">Home</a></li>
+                <li class="li1"><a href="gen.php" style="color: aliceblue;">Genre</a></li>
+                <li class="li1"><a href="help.html" style="color: aliceblue;">Help</a></li>
+
+            </ul>
+
+
+        </div>
+
+        <div class="col-4" style="padding-top: 5px;">
+
+            <input type="search" style="width: 100%; height: 45px;">
+
+        </div>
+
+        <div class="col-1" style=" padding-top: 5px;">
+
+            <button style="height: 45px;" onclick="popup();" id="sb" onmouseover="sel('sb');" onmouseout="unsel('sb');">
+            <img src="search-icon-png-21.png" style="height: 25px;width: 25px;">
+            </button>
+
+        </div>
+        <div class="col-1" style="padding-top: 5px;">
+            <center>
+                <img src="account-profile-user-icon--icon-search-engine-10.png" style="height: 40px;width: 40px; background-color: white;">
+            </center>
+        </div>
+
+    </div><!--header-->
+
+    <fieldset class="fieldset">
+        <center>
+        <div class="buttons">
+       <a href ="userdetails.html"> <button class="user">USER LIST</button>
+        <a href ="theater.html"> <button class="theater">THEATER LIST </button></a>
+        <button class="offers">OFFERS</button>
+        </div>
+        </center>
+    </div>
+    <br>
+     <fieldset>
+         <div class="container1">
+    
+        <div class="theater-details1">
+          <h2 id="theater-Id" class="theater-id"> TH_001</h2>
+          <p id="theater-name" class="theater-name">Royal National Theater </p>
+          <p id="location" class="location">London</p>
+        </div>
+        <div class="buttons1">
+            
+        <button class="remove-theater">Remove theater</button><br/>
+        <button class="View-Details ">View Details</button>
+           
+         </div>
+         </div>
+    </fieldset>
+
+   <br>
+    
+   <fieldset>
+    <div class="container2">
+
+   <div class="theater-details2">
+     <h2 id="theater-Id" class="theater-id"> TH_002</h2>
+     <p id="theater-name" class="theater-name">Royal Shakespeare Theatre </p>
+     <p id="location" class="location"> Stratford-upon-Avon</p>
+   </div>
+   <div class="buttons1">
+   <button class="remove-theater ">Remove theater</button><br/>
+   <button class="View-Details ">View Details</button>
+    </div>
+    </div>
+</fieldset>
+
+   <br>
+
+   <fieldset>
+    <div class="container3">
+
+   <div class="theater-details3">
+     <h2 id="theater-Id" class="theater-id"> TH_003</h2>
+     <p id="theater-name" class="theater-name">Theatre Royal, Drury Lane </p>
+     <p id="location" class="location">London</p>
+   </div>
+   <div class="buttons1">
+   <button class="remove-theater ">Remove Theater</button><br/>
+   <button class="View-Details ">View Details</button>
+    </div>
+    </div>
+</fieldset>
+
+<br>
+<fieldset>
+    <div class="container4">
+
+   <div class="theater-details4">
+     <h2 id="theater-Id" class="theater-id"> TH_004</h2>
+     <p id="theater-name" class="theater-name">The Playhouse Theatre </p>
+     <p id="location" class="location">London</p>
+   </div>
+   <div class="buttons1">
+   <button class="remove-theater ">Remove theater</button><br/>
+   <button class="View-Details ">View Details</button>
+    </div>
+    </div>
+</fieldset>
+
+
+<br>
+
+
+<fieldset>
+    <div class="container5">
+
+   <div class="theater-details5">
+     <h2 id="theater-Id" class="theater-id"> TH_005</h2>
+     <p id="theater-name" class="theater-name">The Globe Theatre  </p>
+     <p id="location" class="location">London</p>
+   </div>
+   <div class="buttons1">
+   <button class="remove-theater ">Remove theater</button><br/>
+   <button class="View-Details ">View Details</button>
+    </div>
+    </div>
+</fieldset>
+<br>
+    </fieldset>
+
+    
+<!--footer-->
+<footer class="bdr1" style="height: 400px;">
+  <div class="bg">
+      <div class="col-2">
+          <center>
+              <h3 style="color: aliceblue;">About us</h3>
+
+              <h4 style="color: aliceblue;" >
+                  Unleashing the Magic of Movies. Streamline your movie bookings with our user-friendly platform. Discover, book, and enjoy your favorite films hassle-free. Your ultimate destination for cinematic experiences.
+              </h4>
+
+          </center>
+      </div>
+      <div class="col-1">
+          <center>
+              <h3 style="color: aliceblue;">Services</h3>
+                
+              <h4 style="color: aliceblue;">
+                  Cinemage offers seamless online movie booking, personalized recommendations, secure transactions, and a vibrant community of movie enthusiasts. 
+        Discover the latest releases, book tickets with ease, and engage in discussions about your favorite films. 
+        Unleash the power of movies with Cinemage.
+              </h4>
+          </center>
+      </div>
+      <div class="col-2">
+          <center>
+              <h3 style="color: aliceblue;">Privacy policy</h3>
+
+              <h4 style="color: aliceblue;">
+                  At Cinemage, we prioritize the protection of your personal information. 
+        Rest assured that we adhere to strict privacy standards, ensuring your data is secure and used solely for enhancing your movie booking experience.
+        Your privacy is our commitment.
+              </h4>
+
+          </center>
+      </div>
+  </div>
+  <div class="bg">
+      <div class="col-5">
+          
+             <h3 style="color: aliceblue;align-items: center;justify-content: center;display: center;"> Follow us on</h3></center>  
+          
+      </div>
+  </div>
+  <div class="bg">
+      <div class="col-5" style="align-items: center;justify-content: center;display: flex;">
+          
+        <div class ="set-1">
+              <img src="social-media-removebg.png" alt="" style="width: 200px;height: 130px;padding-top: 5px;">
+            </div>
+      </div>
+  </div>
+</footer>
+
+    <script src="theater.js"></script>
+</body>
+</html>

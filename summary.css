@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(103, 154, 230);
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  
+ 
+  h3 {
+    text-align: center;
+    -webkit-text-fill-color: rED ;
+  }
+  
+  .order-card {
+    background-color: #fff;
+    border: 1px solid #0d0b0b;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .container1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-picture  {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie-details {
+    margin-left: 20px;
+  }
+  
+  .movie-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-date,
+  .movie-language
+  .Theatre {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .container2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-picture1 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ticket-details {
+    margin-left: 20px;
+  }
+  
+  .ticket-number {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-type,
+  .ticket-price
+  .noofticket {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .container3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-picture img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .user-details {
+    margin-left: 20px;
+  }
+  
+  .user-td {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .user-name,
+  .user-address,
+  .user-phone,
+  .user-email {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+  .li1 {
+  float: left;
+  }
+  
+  .li1 a {
+  display: block;
+  color:blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .bg{
+  
+  box-sizing: border-box;
+  height: fit-content;
+  display: flex;
+  
+  
+  }
+  
+  .col{
+  
+  width: 20%;
+  
+  }
+  
+  .col-1{
+  
+  
+  width: 30%;
+  
+  }
+  .col-2{
+  
+  text-align: center;
+  width: 35%;
+  
+  }
+  .col-3{
+  
+  width: 60%;
+  
+  }
+  .col-4{
+  
+  width: 80%;
+  
+  }
+  
+  
+  .bdr{
+  border-color: purple;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  
+  
+  
+  }
+  .bdr1{
+  border-color: purple;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  width: 100%;
+  }
+  
+  
+  footer {
+  margin-top:20px;
+  background-color:black;
+  bottom:0;
+  left:0;
+  width:1750px;
+  padding:20px;
+  display:block;
+  position:100%;
+  min-height:200px;
+  }

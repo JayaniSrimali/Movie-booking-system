@@ -1,0 +1,46 @@
+*
+.body{
+	 background-image: "pop.jpg";
+}
+.text-block {
+  position: absolute;
+  right: 500px;
+  top: 100px;
+  left:500px;
+  bottom: 100px;
+  background-color: rgba(0,0,0,0.95);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-box{
+	 position: relative;
+	 text-indent: 60px;
+	
+}
+.remember-forget{
+	position: relative;
+	text-indent: 60px;
+}
+.btun1{
+	position: relative;
+	text-indent: 140px;
+}
+.btun2{
+	position: relative;
+	text-indent: 100px;
+}
+.btun3{
+	position: relative;
+	text-indent: 105px;
+}
+.acc{
+	 position: relative;
+	 text-indent: 60px;
+	
+}
+.reset{
+	position: relative;
+	top: 40px;
+	left:90px;
+}

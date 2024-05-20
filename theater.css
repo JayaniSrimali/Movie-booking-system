@@ -1,0 +1,187 @@
+
+
+
+.fieldset1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #69050a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #a71668;
+  }
+  
+ 
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .theater-details1,
+  .theater-details2,
+  .theater-details3,
+  .theater-details4,
+  .theater-details5 {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    background-color:black;
+    color: aliceblue;
+  }
+  
+  .theater-id {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .theater-name,
+  .location {
+    margin: 0;
+  }
+  
+  .buttons1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons1 button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #3821ab;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons1 button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: black;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.li1 {
+float: left;
+}
+
+.li1 a {
+display: block;
+color:blue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.bg{
+
+box-sizing: border-box;
+height: fit-content;
+display: flex;
+
+
+}
+
+.col{
+
+width: 20%;
+
+}
+
+.col-1{
+
+
+width: 30%;
+
+}
+.col-2{
+
+text-align: center;
+width: 35%;
+
+}
+.col-3{
+
+width: 60%;
+
+}
+.col-4{
+
+width: 80%;
+
+}
+
+
+
+.bdr{
+  border-color: purple;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+
+
+
+}
+.bdr1{
+  border-color: purple;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+width: 100%;
+}
+
+
+footer {
+  margin-top:20px;
+background-color:black;
+bottom:0;
+left:0;
+width:1750px;
+padding:20px;
+display:block;
+position:100%;
+min-height:200px;
+}

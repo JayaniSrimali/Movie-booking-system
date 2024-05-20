@@ -1,0 +1,184 @@
+
+
+body {
+  background-image: url('AdminUI.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90% 90%;
+  background-color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #69050a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color:  #a71668;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-picture1 img,
+.user-picture2 img,
+.user-picture3 img,
+.user-picture4 img,
+.user-picture5 img {
+  width: 100px;
+  height: auto;
+}
+
+.user-details1,
+.user-details2,
+.user-details3,
+.user-details4,
+.user-details5 {
+  flex-grow: 1;
+  margin-left: 10px;
+  padding: 10px;
+  background-color:black;
+  color: aliceblue;
+}
+
+.user-id {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user-name,
+.user-address,
+.user-phone,
+.user-email {
+  margin: 0;
+}
+
+.buttons1 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons1 button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons1 button:hover {
+  background-color: #3821ab;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.li1 {
+float: left;
+}
+
+.li1 a {
+display: block;
+color:blue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.bg{
+
+box-sizing: border-box;
+height: fit-content;
+display: flex;
+
+
+}
+
+.col{
+
+width: 20%;
+
+}
+
+.col-1{
+
+
+width: 30%;
+
+}
+.col-2{
+
+text-align: center;
+width: 35%;
+
+}
+.col-3{
+
+width: 60%;
+
+}
+.col-4{
+
+width: 80%;
+
+}
+
+
+.bdr{
+border-color: purple;
+border-width: 2px;
+border-style: solid;
+border-radius: 8px;
+
+
+
+}
+.bdr1{
+border-color: purple;
+border-width: 2px;
+border-style: solid;
+border-radius: 8px;
+width: 100%;
+}
+
+
+footer {
+margin-top:20px;
+background-color:black;
+bottom:0;
+left:0;
+width:1750px;
+padding:20px;
+display:block;
+position:100%;
+min-height:200px;
+}

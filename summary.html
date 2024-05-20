@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER SUMMARY</title>
+    <link rel="stylesheet" type="text/css" href="summary.css">
+    <style>
+        body {
+            background-image: url('movie-summary-background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 90% 90%;
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+     <!--header-->
+	<div class=" header">
+		
+		<div class="bg" style="background-color:black">
+			<div class="col-1" style="padding-top: 5px ;">
+
+            <center>
+                <img src="logo.jpg" style="height: 45px; width: 80%;">
+            </center>
+
+        </div>
+
+        <div class="col-2">
+
+
+            <ul class="nav" style="padding-top: 5px;">
+
+                <li class="li1"><a href="index.php" style="color: aliceblue;">Home</a></li>
+                <li class="li1"><a href="gen.php" style="color: aliceblue;">Genre</a></li>
+                <li class="li1"><a href="help.html" style="color: aliceblue;">Help</a></li>
+
+            </ul>
+
+
+        </div>
+
+        <div class="col-4" style="padding-top: 5px;">
+
+            <input type="search" style="width: 100%; height: 45px;">
+
+        </div>
+
+        <div class="col-1" style=" padding-top: 5px;">
+
+            <button style="height: 45px;" onclick="popup();" id="sb" onmouseover="sel('sb');" onmouseout="unsel('sb');">
+            <img src="search-icon-png-21.png" style="height: 25px;width: 25px;">
+            </button>
+
+        </div>
+        <div class="col-1" style="padding-top: 5px;">
+            <center>
+                <img src="account-profile-user-icon--icon-search-engine-10.png" style="height: 40px;width: 40px; background-color: white;">
+            </center>
+        </div>
+
+    </div><!--header-->
+
+  
+ 
+<form action="process_order.php" method="POST">
+   
+</form>
+    
+    <div class="container">
+       
+    
+        <div class="order-card">
+         <center> <h3>ORDER SUMMARY</h3></center>
+            <h2>Order Details</h2>
+            <fieldset>
+            <div class="container1">
+                <div class="movie-picture">
+                  <img id="movie-img" src="Evil_Dead_Rise.jpg" alt="evil" width="150" height="150">
+                </div>
+                <div class="movie-details">
+                  <h2 class="movie-name">Evil Dead Rise</h2>
+                  <p class="movie-language"> English</p>
+                  <p class="movie-date"> May 4, 2023</p>
+                  <p class="Theatre"> The Playhouse Theatre</p>
+                  
+                </div>
+              </div>
+        
+        </fieldset>
+     <br>
+        <fieldset>
+            <div class="container2">
+                <div class="movie-picture1">
+                    <img id="ticket-img" src="Ticket.jpg"  width="150" height="150">
+                  </div>
+                <div class="ticket-details">
+                  <h4 class="ticket-number"> Ticket Number : T00163</h4>
+                  <p class="ticket-type">Ticket Type: Balcony</p>
+                  <p class="ticket-price">Ticket Price : $7</p>
+                  <p class="noofticket"> No Of Ticket : 03</p>
+                  
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            
+             <div class="container3">
+            <div class="user-picture">
+              <img id="user-img" src="user4.jpg" alt="User Picture">
+            </div>
+            <div class="user-details">
+              <h2 id="user-Id" class="user-id">User ID : U_004</h2>
+              <p id="user-name" class="user-name">Name: Sarah Davis </p>
+              <p id="user-address" class="user-address">Address: 1 The Mall,United kindom</p>
+              <p id="user-phone" class="user-phone">Phone Number: 810047815</p>
+              <p id="user-email" class="user-email">Email: sarah56@gmail.com</p>
+            </div>
+          </div>
+        </fieldset>
+        <br>
+
+       
+       
+</div>
+     
+</div>
+ <!--footer-->
+ <footer class="bdr1" style="height: 400px;">
+    <div class="bg">
+        <div class="col-2">
+            <center>
+                <h3 style="color: aliceblue;">About us</h3>
+  
+                <h4 style="color: aliceblue;" >
+                    Unleashing the Magic of Movies. Streamline your movie bookings with our user-friendly platform. Discover, book, and enjoy your favorite films hassle-free. Your ultimate destination for cinematic experiences.
+                </h4>
+  
+            </center>
+        </div>
+        <div class="col-1">
+            <center>
+                <h3 style="color: aliceblue;">Services</h3>
+                  
+                <h4 style="color: aliceblue;">
+                    Cinemage offers seamless online movie booking, personalized recommendations, secure transactions, and a vibrant community of movie enthusiasts. 
+          Discover the latest releases, book tickets with ease, and engage in discussions about your favorite films. 
+          Unleash the power of movies with Cinemage.
+                </h4>
+            </center>
+        </div>
+        <div class="col-2">
+            <center>
+                <h3 style="color: aliceblue;">Privacy policy</h3>
+  
+                <h4 style="color: aliceblue;">
+                    At Cinemage, we prioritize the protection of your personal information. 
+          Rest assured that we adhere to strict privacy standards, ensuring your data is secure and used solely for enhancing your movie booking experience.
+          Your privacy is our commitment.
+                </h4>
+  
+            </center>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="col-5">
+            
+               <h3 style="color: aliceblue;align-items: center;justify-content: center;display: center;"> Follow us on</h3>
+            
+        </div>
+    </div>
+    <div class="bg">
+        <div class="col-5" style="align-items: center;justify-content: center;display: flex;">
+            
+          <div class ="set-1">
+                <img src="social-media-removebg.png" alt="" style="width: 200px;height: 130px;padding-top: 5px;">
+              </div>
+        </div>
+    </div>
+  </footer>
+
+<script src="summary.js"></script>
+</body>
+</html>

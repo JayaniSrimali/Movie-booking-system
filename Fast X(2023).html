@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Movie Details</title>
+		<link rel ="stylesheet" href ="fastx.css">
+	</head>
+	
+	<body>
+	
+	<!--header-->
+	<div class=" header">
+		
+		<div class="bg" style="background-color:black">
+			<div class="col-1" style="padding-top: 5px ;">
+
+            <center>
+                <img src="images/logo.jpg" style="height: 45px; width: 80%;">
+            </center>
+
+        </div>
+
+        <div class="col-2">
+
+
+            <ul class="nav" style="padding-top: 5px;">
+
+                <li class="li1"><a href="index.php" style="color: aliceblue;">Home</a></li>
+                <li class="li1"><a href="gen.php" style="color: aliceblue;">Genre</a></li>
+                <li class="li1"><a href="help.html" style="color: aliceblue;">Help</a></li>
+
+            </ul>
+
+
+        </div>
+
+        <div class="col-4" style="padding-top: 5px;">
+
+            <input type="search" style="width: 100%; height: 45px;">
+
+        </div>
+
+        <div class="col-1" style=" padding-top: 5px;">
+
+            <button style="height: 45px;" onclick="popup();" id="sb" onmouseover="sel('sb');" onmouseout="unsel('sb');">
+            <img src="images/search-icon-png-21.png" style="height: 25px;width: 25px;">
+            </button>
+
+        </div>
+        <div class="col-1" style="padding-top: 5px;">
+            <center>
+                <img src="images/account-profile-user-icon--icon-search-engine-10.png" style="height: 40px;width: 40px; background-color: white;">
+            </center>
+        </div>
+
+    </div><!--header-->
+		<hr>
+		<!--image-->	
+		<div class ="container">
+			<div class="card">
+				<img src= "images/Fast-X.jpg" alt="fastx" class="cover" width="600" height="400"/>
+			</div>	
+		
+			<!--movie name-->
+			<div class="info">
+				<h1 class="tag">Fast-X</h1><br>
+					<div class="details">
+						<!--language-->
+						<div class="set">
+							<span>ENGLISH</span>
+						</div>
+						
+						<!--genre-->
+						<div class="set">
+							<span>Action / Drama</span>
+						</div>
+					
+						<!--release date-->
+						<div class="set">
+							<span>18 May, 2023</span>
+						</div>
+						
+						<!--runniing time-->
+						<div class="set">
+							<span>2hrs 14 mins</span>
+						
+						</div>
+						
+						
+						<!--description-->
+						<div class="set">
+							<div class="des"><u>About Movie</u></div>
+							<span>Dom Toretto and his family are forced to face
+							a lethal foe who has emerged from the past.</span>
+						</div>
+						
+					<div class="rate">
+						<input type ="radio" name="rate" id="r1">
+						<label for="r1"> </label>
+						
+						<input type ="radio" name="rate" id="r2">
+						<label for="r2"> </label>
+						
+						<input type ="radio" name="rate" id="r3">
+						<label for="r3"> </label>
+						
+						<input type ="radio" name="rate" id="r4">
+						<label for="r4"> </label>
+						
+						<input type ="radio" name="rate" id="r5">
+						<label for="r5"> </label>
+					</div>
+					<!--booking button-->
+				</div>
+					<button> Book Tickets</button>
+			</div>
+				<!--video-->
+			<div class="vid">
+				<video controls src="images/FAST_X_Official_Trailer_2_aOb15GVFZxU_135.mp4" width="700" height="500">
+			</div>
+				
+				<!--cast-->
+				<div class="castrole">
+					<div class="head">Cast</div>
+					<div class="li">
+					<!--vin-->
+						<div class="cast">
+							<img src="images/Vin.jpg" class="vin" alt="vin">
+							<lable>Vin Diesel</lable>
+						</div>
+					<!--Michelle-->
+						<div class="cast">
+							<img src="images/michel.jpeg" alt="michel">
+							<lable>Michelle Rodriguez</lable>
+						</div>
+					<!--Jason-->	
+						<div class="cast">
+							<img src="images/jason.jpeg" alt="jason">
+							<lable>Jason Momoa</lable>
+						</div>
+						
+					<!--Tyres-->	
+						<div class="cast">
+							<img src="images/tyrese.jpeg" alt="tyrese">
+							<lable>Tyrese Gibson</lable>
+						</div>	
+						
+					<!--john-cena-->	
+						<div class="cast">
+							<img src="images/John-Cena.jpg" alt="johncena">
+							<lable>John-Cena</lable>
+						</div>	
+						
+					<!--sung-->	
+						<div class="cast">
+							<img src="images/sung.jpeg" alt="sung">
+							<lable>Sung Kang</lable>
+						</div>	
+						
+					</div>
+				</div>
+					
+			
+		</div>
+		<div style="height: 80px;"></div>
+	</body>
+
+	<!--footer-->
+	<footer class="bdr1" style="height: 400px;">
+    <div class="bg">
+        <div class="col-2">
+            <center>
+                <h3 style="color: aliceblue;">About us</h3>
+
+                <h4 style="color: aliceblue;" >
+                    Unleashing the Magic of Movies. Streamline your movie bookings with our user-friendly platform. Discover, book, and enjoy your favorite films hassle-free. Your ultimate destination for cinematic experiences.
+                </h4>
+
+            </center>
+        </div>
+        <div class="col-1">
+            <center>
+                <h3 style="color: aliceblue;">Services</h3>
+                  
+                <h4 style="color: aliceblue;">
+                    Cinemage offers seamless online movie booking, personalized recommendations, secure transactions, and a vibrant community of movie enthusiasts. 
+					Discover the latest releases, book tickets with ease, and engage in discussions about your favorite films. 
+					Unleash the power of movies with Cinemage.
+                </h4>
+            </center>
+        </div>
+        <div class="col-2">
+            <center>
+                <h3 style="color: aliceblue;">Privacy policy</h3>
+
+                <h4 style="color: aliceblue;">
+                    At Cinemage, we prioritize the protection of your personal information. 
+					Rest assured that we adhere to strict privacy standards, ensuring your data is secure and used solely for enhancing your movie booking experience.
+					Your privacy is our commitment.
+                </h4>
+
+            </center>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="col-5">
+            
+                <h3 style="color: aliceblue;lign-items: center;justify-content: center;display: flex;">Follow us on</h3>
+            
+        </div>
+    </div>
+    <div class="bg">
+        <div class="col-5" style="align-items: center;justify-content: center;display: flex;">
+            
+                <img src="images/social-media-removebg.png" alt="" style="width: 200px;height: 130px;padding-top: 5px;">
+            
+        </div>
+    </div>
+</footer>
+
+
+</html>

@@ -1,0 +1,69 @@
+*
+.body{
+	 background-image: "pop.jpg";
+	}
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	background: 25px 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+.user-details{
+	text-align: justify;
+	line-height: 1.75;
+	text-indent: 50px;
+}
+.transbox {
+  position: absolute;
+  right: 400px;
+  left : 400px;
+  background-color: rgba(0,0,0,0.95);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+.button{
+	text-align: center;
+}
+.register-details{
+	text-indent: 10px;
+}
+.gender-details{
+	text-indent: 10px;
+}
+.payment-details{
+	text-indent: 10px;
+}
+.bdr{
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+	
+	
+	
+  }
+ .bdr1{
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+	width: 100%;
+  }
+  
+
+  footer {
+    margin-top:20px;
+	background-color: #333;
+	bottom:0;
+	left:0;
+	width:1750px;
+	padding:20px;
+	display:block;
+	position:100%;
+	min-height:200px;
+}

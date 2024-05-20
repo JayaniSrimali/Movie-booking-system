@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Actor/Actress Details</title>
+  <style>
+    /* CSS code for the page layout and styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #34495E;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .actor-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .actor-image {
+      max-width: 200px;
+      border-radius: 50%;
+    }
+
+    .main-scroll-div {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 2px solid
+    }
+
+    .cover {
+      position: relative;
+      width: 100%;
+      height: 50%;
+    }
+
+
+    .scroll-images {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      overflow: auto;
+      position: relative;
+      scroll-behavior: smooth;
+
+    }
+
+    .child {
+      min-width: 600px;
+      height: 450px;
+      margin: 1px 10px;
+      cursor: pointer;
+      border: 1px solid white;
+      overflow: hidden;
+    }
+
+    .child-img {
+      width: 600px;
+      height: 450px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="row" style="background-color:blueviolet">
+
+    <div class="col-1" style="padding-top: 5px ;">
+
+      <center>
+        <img src="logo.jpg" style="height: 45px; width: 80%;">
+      </center>
+
+    </div>
+
+    <div class="col-2">
+
+
+      <ul class="nav" style="padding-top: 5px;">
+
+        <li class="li1"><a href="index.php" style="color: aliceblue;">Home</a></li>
+        <li class="li1"><a href="gen.php" style="color: aliceblue;">Genre</a></li>
+        <li class="li1"><a href="help.html" style="color: aliceblue;">Help</a></li>
+
+      </ul>
+
+
+    </div>
+
+    <div class="col-4" style="padding-top: 5px;">
+
+      <input type="search" style="width: 100%; height: 45px;">
+
+    </div>
+
+    <div class="col-1" style=" padding-top: 5px;">
+
+      <button style="height: 45px;" onclick="popup();" id="sb" onmouseover="sel('sb');" onmouseout="unsel('sb');">
+        <img src="search-icon-png-21.png" style="height: 25px;width: 25px;">
+      </button>
+
+    </div>
+    <div class="col-1" style="padding-top: 5px;">
+      <center>
+        <img src="account-profile-user-icon--icon-search-engine-10.png"
+          style="height: 40px;width: 40px; background-color: blueviolet;">
+      </center>
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="actor-info">
+      <h2>Vin Diesel</h2>
+      <img class="actor-image" src="vin-diesel.jpg" alt="Actor/Actress Image">
+
+      <p style="font-weight:bold;">Mark Sinclair, known professionally as Vin Diesel, is an American actor and film
+        producer. One of the world's highest-grossing actors, he is best known for playing Dominic Toretto in the Fast &
+        Furious franchise.</p>
+      <ul style="font-weight:bold;">
+        Born: July 18, 1967 (age 55 years), Alameda County, California, United States<br><br>
+        Children: 3<br><br>
+        Partner: Paloma Jiménez<br><br>
+        Parents: Irving Vincent, Delora Vincent<br><br>
+        Siblings: Paul Vincent, Samantha Vincent, Tim Vincent<br><br>
+        Education: Hunter College, City University of New York<br><br>
+        <a href="https://en.wikipedia.org/wiki/Vin_Diesel">More...</a>
+      </ul>
+
+    </div>
+    <div class="main-scroll-div">
+      <div>
+
+      </div>
+      <div class="cover">
+        <div class="scroll-images">
+          <div class="child"><img class="child-img" src="Bloodshot-Movie-Image-2.jpg" alt=""></div>
+          <div class="child"><img class="child-img"
+              src="c2b19b28ceb956f96a5f33e1696d556acea667bddaa6b8b4bcf2d03b77863113._UY500_UX667_RI_TTW_.jpg" alt="">
+          </div>
+          <div class="child"><img class="child-img" src="last-witch-hunter.webp" alt=""></div>
+          <div class="child"><img class="child-img" src="riddick-banner.webp" alt=""></div>
+          <div class="child"><img class="child-img" src="0719191433bff20.webp" alt=""></div>
+          <div class="child"><img class="child-img" src="fast-and-furious_d.webp" alt=""></div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code for the carousel functionality
+    //Refer Youtube Videos and Online resources for get knowledge about to how to implement function to get a scroll bar
+    const carousel = document.querySelector('.movies-carousel');
+
+
+    const movieCards = document.querySelectorAll('.movie-card');
+
+    const scrollCarousel = (direction) => {
+      const scrollAmount = direction === 'left' ? -carousel.offsetWidth : carousel.offsetWidth;
+      carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    };
+    const scrollCarousel = (direction) => {
+      const scrollAmount = direction === 'right' ? -carousel.offsetWidth : carousel.offsetWidth;
+      carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    };
+
+    document.querySelector('.prev-button').addEventListener('click', () => scrollCarousel('left'));
+    document.querySelector('.next-button').addEventListener('click', () => scrollCarousel('right'));
+  </script>
+</body>
+
+<footer class="bdr" style="height: 350px;">
+  <div class="row">
+    <div class="col-2">
+      <center>
+        <h4 style="color: aliceblue;">About us</h4>
+
+        <h5 style="color: aliceblue;">
+          Unleashing the Magic of Movies. Streamline your movie bookings with our user-friendly platform. Discover,
+          book,
+          and enjoy your favorite films hassle-free. Your ultimate destination for cinematic experiences.
+        </h5>
+
+      </center>
+    </div>
+    <div class="col-1">
+      <center>
+        <h4 style="color: aliceblue;">Services</h4>
+
+        <h5 style="color: aliceblue;">
+          Cinemage offers seamless online movie booking, personalized recommendations, secure transactions, and a
+          vibrant community of movie enthusiasts.
+          Discover the latest releases, book tickets with ease, and engage in discussions about your favorite films.
+          Unleash the power of movies with Cinemage.
+        </h5>
+      </center>
+    </div>
+    <div class="col-2">
+      <center>
+        <h4 style="color: aliceblue;">Privacy policy</h4>
+
+        <h5 style="color: aliceblue;">
+          At Cinemage, we prioritize the protection of your personal information.
+          Rest assured that we adhere to strict privacy standards, ensuring your data is secure and used solely for
+          enhancing your movie booking experience.
+          Your privacy is our commitment.
+        </h5>
+
+      </center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5">
+
+      <h3 style="color: aliceblue;align-items: center;justify-content: center;display: flex;">Follow us on</h3>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5" style="align-items: center;justify-content: center;display: flex;">
+
+      <img src="social-media-removebg.png" alt="" style="width: 200px;height: 130px;padding-top: 0px;">
+
+    </div>
+  </div>
+</footer>
+
+
+</html>

@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 ;
+	padding: 100;
+	font-family: "Quicksand", sans- serif;
+	background: #fff;
+	display:flex;
+	flex-direction: column;
+	min-height; 90vh;
+}
+
+.header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+   .li1 {
+    float: left;
+  }
+  
+  .li1 a {
+    display: block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.bg{
+	
+    box-sizing: border-box;
+    height: fit-content;
+    display: flex;
+	
+
+  }
+  
+   .col{
+
+    width: 20%;
+
+  }
+
+  .col-1{
+
+  
+    width: 30%;
+
+  }
+  .col-2{
+
+    text-align: center;
+    width: 35%;
+
+  }
+  .col-3{
+
+    width: 60%;
+
+  }
+  .col-4{
+
+    width: 80%;
+
+  }
+  .col-5{
+
+    width: 100%;
+
+  }
+
+.card {
+	background-color: #fff;
+	border: 1px solid #0d0b0b;
+	padding:20px;
+	border-radius: 5px;
+}
+
+h1 {
+	background: darkblue;
+	color: #f1faee;;
+}
+
+.bod-1 {
+	font-family: Lucida Console;
+	max-width: 500px;
+	margin: 0 auto;
+	min-width:900px;
+}
+
+.Qa-container {
+	box-shadow: 0 4px 8px -3px rgba(120, 120, 120);
+	
+}
+
+h1 {
+	padding: 4px 32px;
+}
+
+.faq-header {
+	display: flex;
+	background: #8698bb;
+	color: #f1faee;
+	cursor: pointer;
+	align-items: center;
+	position: relative;
+}
+
+.open,
+.close  {
+	padding: 0 32px;
+	right: 0;
+	position: absolute;
+	transition: all 500ms;
+	opacity: 0;
+	transform: translateY(-8px);
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.open.active,
+.close .active  {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+h3 {
+	padding: 0 32px;
+	font-size: 20px;
+}
+
+.para {
+	background:#fdfffc;
+	line-height: 2;
+	padding: 0 32px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 500ms;
+}
+
+.para.active {
+	max-height: 600px;
+}
+	
+ .bdr{
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+	
+	
+  }
+ .bdr1{
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+	width: 100%;
+  }
+  
+
+  footer {
+    margin-top:20px;
+	width: 200%;
+	background-color: #333;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding:20px;
+	position:100%;
+}
